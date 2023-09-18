@@ -38,7 +38,7 @@
     <!-- Main Sidebar Container -->
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
         <!-- Brand Logo -->
-        <a href="index3.html" class="brand-link">
+        <a href="#" class="brand-link">
             <img src="/admin/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
             <span class="brand-text font-weight-light">Admin panel</span>
         </a>
@@ -67,6 +67,7 @@
                             </p>
                         </a>
                     </li>
+
                     <li class="nav-item">
                         <a href="#" class="nav-link">
                             <i class="nav-icon fas fa-newspaper"></i>
@@ -88,6 +89,7 @@
                             </li>
                         </ul>
                     </li>
+
                     <li class="nav-item">
                         <a href="#" class="nav-link">
                             <i class="nav-icon fas fa-align-left"></i>
@@ -109,11 +111,39 @@
                             </li>
                         </ul>
                     </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-regular fa-user"></i>
+                            <p>
+                                Users
+                                <i class="right fas fa-angle-left"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <a href="{{route('user.index')}}" class="nav-link">
+                                    <p>Users</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="{{route('user.create')}}" class="nav-link">
+                                    <p>Add user</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/home" class="nav-link">
+                            <i class="nav-icon fas fa-regular fa-door-closed"></i>
+                            <p>
+                                Exit
+                            </p>
+                        </a>
+                    </li>
                 </ul>
             </nav>
-            <!-- /.sidebar-menu -->
         </div>
-        <!-- /.sidebar -->
     </aside>
 
     <!-- Content Wrapper. Contains page content -->
