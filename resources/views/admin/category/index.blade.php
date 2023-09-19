@@ -1,6 +1,6 @@
 @extends('layouts.admin.admin_layout')
 
-@section('title','Categories');
+@section('title','Categories')
 
 @section('content')
     <section class="content">

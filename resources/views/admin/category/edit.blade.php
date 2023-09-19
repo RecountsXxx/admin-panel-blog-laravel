@@ -1,6 +1,6 @@
 @extends('layouts.admin.admin_layout')
 
-@section('title','Edit category: ' . $category->title);
+@section('title','Edit category: ' . $category->title)
 
 @section('content')
     <section class="content">
