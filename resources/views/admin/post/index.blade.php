@@ -45,7 +45,7 @@
                                 <br>
                                 <small>{{$post->created_at}}</small>
                             </td>
-                            <td>{{\App\Models\Category::where('id',$post->category_id)->first()->title}}</td>
+                            <td>{{\App\Models\Category::where('id',$post->category_id)->first()}}</td>
 
                             <td class="project-actions text-right">
                                 <a class="btn btn-info btn-sm" href="{{route('post.edit',$post['id'])}}" >
